@@ -4,8 +4,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-TARGET_DEVICE := rhannah
-
 $(call inherit-product, device/motorola/rhannah/device.mk)
 
 # Inherit from those products. Most specific first.
